@@ -3,12 +3,6 @@ import dynamic from "next/dynamic";
 const ActiveSlider = dynamic(() => import("@/components/ActiveSlider"));
 
 const Home = () => {
-  const img = require("../../../public/images/burger.png");
-  const styling = {
-    backgroundImage: `url('${img}')`,
-    width: "100%",
-    height: "100%",
-  };
   return (
     <div className="bg-custom bg-group max-w-md h-full mx-auto py-5 relative">
       <div className="flex flex-col justify-center items-center pb-5 mt-3">
