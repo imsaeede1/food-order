@@ -1,7 +1,4 @@
 import { orderListTableHeads } from "@/constants/tableHeads";
-import { toLocalDateStringShort } from "@/utils/toLocalDate";
-import Link from "next/link";
-import { HiCheckCircle } from "react-icons/hi";
 
 function OrdersTable() {
   return (
@@ -50,7 +47,7 @@ function OrdersTable() {
             <td className="table__td">
               <button className="bg-primary-800 rounded py-2 px-4">چاپ</button>
             </td>
-            <td className="table__td font-bold text-lg">
+            <td className="table__td">
               <button className="bg-primary-900 rounded py-2 px-4">
                 جزییات
               </button>
